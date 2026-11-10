@@ -1,0 +1,290 @@
+/* All css part start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #EEEEEE;
+}
+
+body{
+    background-color: #222831;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+
+}
+/* All css part end here */
+
+/* nav bar start here */
+#navBar{
+    padding: 48px 0px 38px 0px;
+    border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+    gap: 719px;
+}
+
+.navContent .logo h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navContent .menuButton ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.navContent .menuButton ul a:hover{
+    color:#00ADB5;
+    transition: all 0.3s ease;
+}
+
+/* nav bar end here */
+
+/* banner part start here */
+#banner{
+    padding-top: 164PX;
+    padding-bottom: 73px;
+}
+
+.bannerContent{
+    display: flex;
+    align-items: start;
+}
+.bannerContent .leftPart{
+    margin-left: 100px;
+}
+.bannerContent .leftPart .textPart h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    width: 586px;
+    margin-top: 60px;
+}
+
+.bannerContent .leftPart .textPart h2 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    width: 586px;
+    color: #00ADB5;
+}
+.buttonPart{
+    margin-top: 48px;
+}
+
+.buttonPart .buttonOne{
+    padding: 10px 32px;
+    color: #EEEEEE;
+    background-color: #393E46;
+    border-radius: 24px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-right: 24px;
+}
+
+.buttonPart .buttontwo{
+    padding: 10px 32px;
+    color: #EEEEEE;
+    background-color: #393E46;
+    border-radius: 24px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.workMenuButton .button1:hover,
+.buttonPart .buttontwo:hover,
+.buttonPart .buttonOne:hover{
+    background-color: #00ADB5;
+    transition: all 0.3s ease;
+}
+
+.vector{
+    display: flex;
+    position: relative;
+}
+.vector .image{
+    position: absolute;
+    top: 96px;
+    left: 0px
+}
+/* banner part end here */
+
+/* about part start here */
+#about{
+    padding-top: 230px;
+    padding-bottom: 69px;
+     border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+}
+
+.aboutContent{
+    display: flex;
+    gap: 179px;
+}
+.aboutContent .leftPart h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.aboutContent .leftPart h1 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #00ADB5;
+}
+
+.aboutContent .leftPart p span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.aboutContent .leftPart p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 389px;
+    
+}
+
+.vectorPart{
+    display: flex;
+    position: relative;
+}
+
+.vectorPart .aboutVector .vector1{
+    position: absolute;
+    top:-116px;
+    left: 0px;
+}
+.vectorPart .aboutVector .vector2{
+    position: absolute;
+    top:395px;
+    left:174px;
+}
+
+.vectorPart .aboutVector .vector3{
+    position: absolute;
+    top:-9px;
+    left:339px;
+}
+
+.vectorPart .aboutVector .vector4{
+    position: absolute;
+    top:214px;
+    left:769px;
+}
+/* about part end here */
+
+
+/* work part start here */
+#work{
+    padding-top: 32px;
+    background-image: url(../images/product/ProjectsPage.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.workcontent{
+    padding-top: 163px;
+    padding-bottom: 274px;
+}
+
+.workcontent h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+.workcontent h1 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #00ADB5;
+}
+
+.workMenuButton{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.workMenuButton .button1{
+    padding: 10px 32px;
+    color: #EEEEEE;
+    background-color: #393E46;
+    border-radius: 24px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.workCart{
+    display: flex;
+    gap: 48px;
+
+}
+
+.workCart .cart1,
+.workCart .cart2,
+.workCart .cart3{
+    flex: 1;                    
+    background: #393E46;
+    border-radius: 16px;
+    padding: 60px 40px;         
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workCart img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* work part end here */
+
+
+
+
+
+
+
+/* banner part start here */
+/* banner part end here */
+/* banner part start here */
+/* banner part end here */
+/* banner part start here */
+/* banner part end here */
+/* banner part start here */
+/* banner part end here */
