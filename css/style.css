@@ -319,20 +319,20 @@ ul, ol{
 
 form {
   width: 100%;
-  display: block;   /* flex thakle eta override korbe */
+  display: block;
 }
 
-/* Name + Email pashapashi */
 .inputGroup {
   display: flex;
   gap: 32px;
   margin-bottom: 28px;
+  max-width: 600px;
 }
 
 .inputBox {
-  flex: 1;                 /* duto equal width */
+  flex: 1;
   display: flex;
-  flex-direction: column;  /* label upore, input niche */
+  flex-direction: column;
   gap: 14px;
 }
 
@@ -351,33 +351,33 @@ label {
 }
 
 .inputGroup .inputBox input {
-  width: 288px;
+  width: 100%;
   box-sizing: border-box;
   background: #2d333b;
   border: none;
   outline: none;
   border-radius: 16px;
-  padding: 16px 208px 16px 24px;
+  padding: 16px 24px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   color: #fff;
 }
 
-.messageBox textarea{
-  width: 600px;
+.messageBox textarea {
+  width: 100%;
+  max-width: 600px;
   height: 310px;
   box-sizing: border-box;
   background: #2d333b;
   border: none;
   outline: none;
   border-radius: 16px;
-  padding-top: 16px;
-  padding-left: 24px;
-  /* padding: 16px 492px 237px 24px; */
+  padding: 16px 24px;
+  resize: none;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   color: #fff;
 }
 
