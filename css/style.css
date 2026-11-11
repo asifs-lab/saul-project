@@ -53,6 +53,8 @@ ul, ol{
     font-size: 18px;
 }
 
+.footerMenu a i:hover,
+.footerMenu a:hover,
 .navContent .menuButton ul a:hover{
     color:#00ADB5;
     transition: all 0.3s ease;
@@ -119,6 +121,9 @@ ul, ol{
     text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+
+.socialMenu .social:hover,
+.projectContent .right button:hover,
 .workMenuButton .button1:hover,
 .buttonPart .buttontwo:hover,
 .buttonPart .buttonOne:hover{
@@ -141,7 +146,9 @@ ul, ol{
 #about{
     padding-top: 230px;
     padding-bottom: 69px;
-     border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+    border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+    margin-bottom: 132px;
+
 }
 
 .aboutContent{
@@ -252,7 +259,6 @@ ul, ol{
 .workCart{
     display: flex;
     gap: 48px;
-
 }
 
 .workCart .cart1,
@@ -275,16 +281,191 @@ ul, ol{
 /* work part end here */
 
 
+/* project part start here */
+#project{
+    padding-top: 258px;
+    padding-bottom: 251px;
+    border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+}
+
+.projectContent .left h2{
+     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    width: 498px;
+}
+
+.projectContent .left h2 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #00ADB5;
+}
+
+.projectContent .left img{
+     margin-left: 190px;
+}
+
+.projectContent{
+    display: flex;
+    gap: 100px;
+}
+
+.right {
+  flex: 1;          /* parent flex hole baki jayga nibe */
+  min-width: 0;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: block;   /* flex thakle eta override korbe */
+}
+
+/* Name + Email pashapashi */
+.inputGroup {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 28px;
+}
+
+.inputBox {
+  flex: 1;                 /* duto equal width */
+  display: flex;
+  flex-direction: column;  /* label upore, input niche */
+  gap: 14px;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.inputGroup .inputBox input {
+  width: 288px;
+  box-sizing: border-box;
+  background: #2d333b;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px 208px 16px 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.messageBox textarea{
+  width: 600px;
+  height: 310px;
+  box-sizing: border-box;
+  background: #2d333b;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  padding-top: 16px;
+  padding-left: 24px;
+  /* padding: 16px 492px 237px 24px; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+.projectContent .right button {
+ padding: 10px 32px;
+    color: #EEEEEE;
+    background-color: #393E46;
+    border-radius: 24px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+.vectorproject{
+    display: flex;
+    position: relative;
+
+}
+
+.vectorproject .imageProject .img3{
+    position: absolute;
+    top: 377px;
+    left: 31px;
+}
+
+.vectorproject .imageProject .img1{
+    position: absolute;
+    top: -215px;
+    left: 653px;
+}
+
+.vectorproject .imageProject .img2{
+    position: absolute;
+    bottom: -690px;
+    right: 12px;
+}
+/* project part end here */
+
+
+/* footer part start here */
+#footerpart{
+    padding-top: 100px;
+    padding-bottom: 48px;
+}
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footerMenu a i{
+    margin-right: 10px;
+}
+.socialMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+    margin-top: 38px;
+    margin-bottom: 92px;
+}
+
+.socialMenu .social{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #393E46;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContent h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+}
+/* footer part end here */
 
 
 
 
 
-/* banner part start here */
-/* banner part end here */
-/* banner part start here */
-/* banner part end here */
-/* banner part start here */
-/* banner part end here */
-/* banner part start here */
-/* banner part end here */
